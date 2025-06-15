@@ -22,3 +22,7 @@ It will send the HTTP GET requests with https, but will not verify the certifica
 # Total Cost
 
 In Asia, about VND 164.550 ($6.31) without antenna or 190.000 (7.29) with antenna (board included, assuming you make 5 units). In the West probably double, but it's still pretty cheap!
+
+# Photo
+
+![Photo of the completed server monitor](https://raw.githubusercontent.com/seanboyce//servermon/refs/heads/main/servermon_generic.JPG)
