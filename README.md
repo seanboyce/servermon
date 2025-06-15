@@ -3,6 +3,8 @@ This ESP8266-based server monitor PCB displays the status of up to 8 servers wit
 
 The big white patches of silkscreen are there for you to write the server names on. You can use whiteboard markers if they change often, permanent marker (clean off with ethanol) or labels.
 
+The firmware is just an Arduino sketch. I've done it this way because Arduino is popular, so this is the easiest for most people to modify.
+
 It will send the HTTP GET requests with https, but will not verify the certificates. This is by design -- there's not much memory on an ESP8266, and you'd have to go through the hassle of loading the certificates onto the MCU storage manually. This is also why it only sends one request at a time instead of creating a http client and then sending all 9. That would often causes out-of-memory errors!
 
 # BOM
